@@ -48,6 +48,7 @@ form
 {
   max-width: 388px;
   margin: auto;
+  margin-bottom: 70px;
 }
 
 input[type="submit"] 
