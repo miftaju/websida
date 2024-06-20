@@ -44,6 +44,12 @@ nav a:hover
 color: #96d4f7; 
 }
 
+form
+{
+  max-width: 388px;
+  margin: auto;
+}
+
 input[type="submit"] 
 {
 background-color: #4CAF50;
@@ -56,6 +62,7 @@ display: block;
 font-size: 16px;
 margin: 4px 2px;
 cursor: pointer;
+float: right;
 }
 
 input[type="text"], input[type="email"], textarea 
@@ -65,7 +72,7 @@ margin: 5px;
 border: 1px solid #ccc;
 border-radius: 4px;
 box-sizing: border-box;
-width: 50%;
+width: 378px;
 }
 
 label 
