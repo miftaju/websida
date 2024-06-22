@@ -4,8 +4,7 @@ body
   margin: 0;
   padding: 0;
   background-color: #0d3645;  
-}
-    
+}    
 header, footer
 {
   background-color: #5791b4;
@@ -13,36 +12,41 @@ header, footer
   padding: 20px;
   margin: 10px;  
   text-align: center;
+  border-radius: 15px;
 }
-
-nav 
-{
-  background-color: #3580BB;  
+nav {
+  background-color: #3580BB;
   margin: 10px;
   padding: 20px;
   text-align: center;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
 }
-    
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  padding-right: 5px;
+  text-decoration: none;
+  text-align: center;
+}
+
+nav a:hover {
+  color: #b640c8;
+  background-color: #ddd;
+}
 section, aside 
-{
+{color: #ddd;
   padding: 20px;
   margin: 10px;
   background-color: #5791b4;
   border: 1px solid #282957;
   border-radius: 15px;
+  text-align: center;
 }    
-    
-nav a 
-{
-  color: #fff;
-  text-decoration: none;
-  padding-right: 5px;
-}
-
-nav a:hover 
-{
-color: #96d4f7; 
-}
 
 form
 {
@@ -66,6 +70,11 @@ cursor: pointer;
 float: right;
 }
 
+input[type="submit"]:hover {
+  background-color: #3580BB; 
+  color: #fff; 
+}
+
 input[type="text"], input[type="email"], textarea 
 {
 padding: 5px;
@@ -84,18 +93,83 @@ margin-top: 10px;
 margin-bottom: 5px;
 }
 
+.booklist-button {
+  background-color: #1cb342 ; 
+  color: #fff; 
+  padding: 10px 20px; 
+  font-size: 16px; 
+  border: none; 
+  border-radius: 25px; 
+  cursor: pointer; 
+  transition: background-color 0.3s, color 0.3s; 
+}
+
+.booklist-button:hover {
+  background-color: #3580BB; 
+  color: #e1e1e1; 
+}
+.centered-section {
+  text-align: center;
+  padding-top: 20px;
+}
 table,th,td 
 {
   border : 1px solid black;
   border-collapse: collapse;
+  text-align: center;
 }
 
 th,td 
 {
   padding: 5px;
+<<<<<<< HEAD
 }
 
 .ctext
 {
   text-align: center;
 }
+=======
+  text-align: center;
+}
+
+
+div {
+  border: 5px solid #3580BB;
+  padding:10px;
+  border-radius: 15px;
+  }
+  
+  .grid-container {
+    display: grid;
+  gap: 10px;
+  }
+  
+  .grid-item {
+  text-align: center;
+  }
+  
+  .grid-item img {
+  max-width: 100%;
+  height: auto;
+  }
+  
+@media screen and (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    }
+    nav a{
+      padding: 10px 0;
+    }
+    .grid-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+  }
+    
+    @media screen and (min-width: 1200px) {
+    .grid-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    }
+>>>>>>> 8dcd31144ad613111bf604cfdc684d0a5af3f8ce
