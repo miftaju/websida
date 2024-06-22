@@ -145,7 +145,6 @@ div {
   max-width: 100%;
   height: auto;
   }
-
   
 @media screen and (max-width: 768px) {
   nav {
@@ -157,8 +156,7 @@ div {
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
     }
-     
-    }
+  }
     
     @media screen and (min-width: 1200px) {
     .grid-container {
