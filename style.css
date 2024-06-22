@@ -45,7 +45,7 @@ section, aside
   background-color: #5791b4;
   border: 1px solid #282957;
   border-radius: 15px;
-  text-align: center;
+  text-align: left;
 }    
 
 form
@@ -122,40 +122,41 @@ table,th,td
 th,td 
 {
   padding: 5px;
-<<<<<<< HEAD
 }
 
 .ctext
 {
   text-align: center;
 }
-=======
-  text-align: center;
-}
 
-
-div {
+div 
+{
   border: 5px solid #3580BB;
   padding:10px;
   border-radius: 15px;
-  }
+}
   
-  .grid-container {
-    display: grid;
+.grid-container 
+{
+  display: grid;
   gap: 10px;
-  }
+}
   
-  .grid-item {
+.grid-item 
+{
   text-align: center;
-  }
+}
   
-  .grid-item img {
+.grid-item img 
+{
   max-width: 100%;
   height: auto;
-  }
+}
   
-@media screen and (max-width: 768px) {
-  nav {
+@media screen and (max-width: 768px) 
+{
+  nav 
+  {
     flex-direction: column;
     }
     nav a{
@@ -163,13 +164,13 @@ div {
     }
     .grid-container {
         grid-template-columns: repeat(2, 1fr);
-    }
   }
+}
     
-    @media screen and (min-width: 1200px) {
-    .grid-container {
-        grid-template-columns: repeat(3, 1fr);
-    }
-    
-    }
->>>>>>> 8dcd31144ad613111bf604cfdc684d0a5af3f8ce
+@media screen and (min-width: 1200px)
+{
+  .grid-container 
+  {
+    grid-template-columns: repeat(3, 1fr);
+  }
+} 
